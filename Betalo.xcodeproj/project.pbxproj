@@ -152,6 +152,15 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		04287D092906AB4B00AFF667 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				041AED9428F9730500D33603 /* NetworkManager.swift */,
+				04BA547E28FEA9D9000F2D50 /* UserDefaultsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		0435392E28F817EE00E1378D /* Schedule */ = {
 			isa = PBXGroup;
 			children = (
@@ -308,9 +317,8 @@
 				04F4B71C28F704BB0053DCBC /* Assets.xcassets */,
 				04F4B71E28F704BB0053DCBC /* LaunchScreen.storyboard */,
 				04F4B72128F704BB0053DCBC /* Info.plist */,
+				04287D092906AB4B00AFF667 /* Managers */,
 				0435392C28F8033500E1378D /* BaseVC.swift */,
-				041AED9428F9730500D33603 /* NetworkManager.swift */,
-				04BA547E28FEA9D9000F2D50 /* UserDefaultsManager.swift */,
 			);
 			path = Betalo;
 			sourceTree = "<group>";
@@ -578,7 +586,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.molineltd.betalo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = betaloProvisioningProfile;
@@ -610,7 +618,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.molineltd.betalo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = betaloProvisioningProfile;

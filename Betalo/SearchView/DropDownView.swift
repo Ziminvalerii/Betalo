@@ -19,7 +19,7 @@ class DropDownView: UIStackView {
         }
     }
     
-    var heightForRow: CGFloat = 40.0 {
+    var rowHeight: CGFloat = 40.0 {
         didSet {
             reloadData()
         }
@@ -57,7 +57,7 @@ class DropDownView: UIStackView {
             self?.arrangedSubviews
                 .compactMap({$0 as? DropDownViewButton})
                 .forEach {
-                    guard let height = self?.heightForRow else {
+                    guard let height = self?.rowHeight else {
                         return
                     }
                     $0.heightConstraint.constant = open ? height : 0

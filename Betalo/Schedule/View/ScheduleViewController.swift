@@ -43,7 +43,7 @@ class ScheduleViewController: BaseVC {
         dropDownView.delegate = self
         
         dropDownView.backgroundColor = .lightGray
-//        dropDownView.heightForRow = 40.0
+//        dropDownView.rowHeight = 40.0
         
         return dropDownView
     }()
